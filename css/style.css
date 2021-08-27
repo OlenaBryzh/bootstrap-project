@@ -1,0 +1,18 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.big-text {
+	font-weight: 600;
+}
+.bg-coral {
+	background-color: coral;
+}
+.bg-black {
+	background-color: rgb(37, 37, 37);
+}
+.bg-gray {
+	background-color: rgb(243, 243, 243);
+}
