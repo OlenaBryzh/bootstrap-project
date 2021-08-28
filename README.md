@@ -1,0 +1,2 @@
+####  It is a small landing project that was created using Bootstrap technology primarily. 
+#### Within the project was implemented the idea of responsiveness and also added toggling behavior to the navigation section.
