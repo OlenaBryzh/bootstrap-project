@@ -1,7 +1,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-	margin: 0;
+  margin: 0;
 	padding: 0;
 }
 .big-text {
@@ -15,4 +15,34 @@ body {
 }
 .bg-gray {
 	background-color: rgb(243, 243, 243);
+}
+.up-btn-area {
+	width: 92%;
+	text-align: right;
+  } 
+.up-btn {
+	cursor: pointer;
+	position: fixed;
+	z-index: 1;
+	bottom: 15px;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	border: none;
+	background-color: coral; 
+	color: rgb(28, 107, 255);
+	font-size: 26px;
+	text-align: center;
+	text-decoration: none;
+}
+@media screen and (max-width: 500px) {
+	.up-btn-area {
+		width: 85%;
+		text-align: right;
+		} 
+	.up-btn {
+		width: 40px;
+		height: 40px;
+		font-size: 24px;
+	}	
 }
